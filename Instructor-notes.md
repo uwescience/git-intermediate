@@ -1,17 +1,17 @@
 ### Review of Version Control
+----
 git add, commit, push, pull
 
 ### Collaboration workflows
+----
 
 ### Merge conflicts
+----
 Possible Scenarios:
 * two people add material at different places of the file
 *
 
 Quiz (on how two files get merged)
-Github forks and pull requests (Valentina)
-Branches
-
 
 ### Forks and Pull Requests
 ----------------------------------
@@ -35,7 +35,7 @@ Exercise: forking
 
 4. Ask all of them to work on modifying the same file.
 
-Look at file ...
+Look at [file](git-review.md) 
 
 Assign a number to each participant and ask them to answer the question with this number line in their own words (if they have never seen the command they can google the answer but more important is their interpretation).
 
@@ -43,7 +43,7 @@ Assign a number to each participant and ask them to answer the question with thi
 
 This was a very simple workflow in which you only work on master and all changes follow a line. But what if you want to work on different aspects of projects and we are not sure if in the end we will like our experiments to go into the main projects. It is still important to keep track of the changes so that we do not lose something important.
 
-### Better workflow - using branches.
+### Branches (a better workflow)
 --------------------
 Exercise: local branch
 
@@ -63,7 +63,10 @@ Exercise: public branch
 
 
 ### Navigating the git tree
+----------------------------
 
 ### Reset, checkout, revert
+---------------------------
 
 ### Rebasing vs. merging
+-------------------------

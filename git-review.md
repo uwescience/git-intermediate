@@ -15,7 +15,7 @@ Describe with your own words what the following command is doing or answer the q
 5. `git diff --name-only`
 
 
-6. `git diff HEAD~0 HEAD~5`
+6. `git diff HEAD~2 HEAD`
 
 
 7. `git push origin master`
@@ -48,7 +48,7 @@ Describe with your own words what the following command is doing or answer the q
 16. What is a `remote`?
 
 
-17. What is an `origin`?
+17. What is `origin`?
 
 
 18. What is `master`?
