@@ -2,10 +2,10 @@
 ----
 git add, commit, push, pull
 
-### Collaboration workflows
+### Collaboration Workflows
 ----
 
-### Merge conflicts
+### Merge Conflicts
 ----
 Possible Scenarios:
 * two people add material at different places of the file
@@ -33,9 +33,13 @@ Use the repo importer to create a temporary copy of this repository for the purp
 
 4. Ask all of them to work on modifying the same file.
 
-We will be working with the file [git-review.md](git-review.md).
+    We will be working with the file [git-review.md](git-review.md).
 
-Assign a number to each participant and ask them to answer the question with this number line in their own words (if they have never seen the command they can google the answer but more important is their interpretation).
+    Assign a number to each participant and ask them to
+    - respond to the corresponding question in their own words (if they have never seen the command they can google the answer but more important is their interpretation)
+    - submit a PR with the modified file
+
+
 
 ***Did this activity cause some problems: why or why not?***
 
@@ -60,11 +64,11 @@ This was a very simple workflow in which you only work on master and all changes
 * Merge the branch through github
 
 
-### Navigating the git tree
+### Navigating the Git Tree
 ----------------------------
 
 ### Reset, checkout, revert
 ---------------------------
 
-### Rebasing vs. merging
+### Rebasing vs. Merging
 -------------------------

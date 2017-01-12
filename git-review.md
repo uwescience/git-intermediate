@@ -67,3 +67,6 @@ Describe with your own words what the following command is doing or answer the q
 
 
 23. What is difference between `git log` and `git reflog`?
+
+
+24. What is the difference between local and remote repository?
