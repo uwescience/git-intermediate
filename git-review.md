@@ -30,10 +30,22 @@ Describe with your own words what the following command is doing or answer the q
 10. `git fetch origin`
 
 
-11. `git merge origin/master`
+11. 12. `git checkout 56789`
 
 
-12. `git checkout 56789`
+11. `git branch`
+
+
+11. `git checkout -b feature_branch`
+
+
+11. `git branch -d  feature_branch`
+
+
+11. `git merge feature_branch`
+
+
+11. `git branch -d`
 
 
 13. `git log --oneline`
@@ -54,10 +66,16 @@ Describe with your own words what the following command is doing or answer the q
 18. What is `master`?
 
 
+19. What is a branch?
+
+
 19. What is the difference between adding and committing?
 
 
 20. What is the difference between pulling and fetching?
+
+
+21. What is the difference between cloning and forking?
 
 
 21. What  is `HEAD`?
@@ -70,3 +88,5 @@ Describe with your own words what the following command is doing or answer the q
 
 
 24. What is the difference between local and remote repository?
+
+25.
