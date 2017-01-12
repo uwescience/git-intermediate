@@ -35,7 +35,7 @@ Exercise: forking
 
 4. Ask all of them to work on modifying the same file.
 
-Look at [file](git-review.md) 
+We will be working with the file [git-review.md](git-review.md). 
 
 Assign a number to each participant and ask them to answer the question with this number line in their own words (if they have never seen the command they can google the answer but more important is their interpretation).
 
