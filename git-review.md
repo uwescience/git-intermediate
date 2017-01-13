@@ -2,89 +2,60 @@ Describe with your own words what the following command is doing or answer the q
 
 1. `git add -A`
 
+1. `git commit -m “My first commit”`
 
-2. `git commit -m “My first commit”`
+1. `git diff file.txt`
 
+1. `git diff --staged`
 
-3. `git diff file.txt`
+1. `git diff HEAD~2 HEAD`
 
+1. `git push origin master`
 
-4. `git diff --staged`
+1. `git pull origin master`
 
+1. `git stash --hunk`
 
-5. `git diff --name-only`
+1. `git stash drop stash@{1}`
 
+1. `git fetch origin`
 
-6. `git diff HEAD~2 HEAD`
+1. `git checkout 56789`
 
+1. `git branch`
 
-7. `git push origin master`
+1. `git checkout -b feature_branch`
 
+1. `git merge feature_branch`
 
-8. `git pull origin master`
+1. `git branch -d useless_branch`
 
+1. `git log --oneline`
 
-9. `git ls-files`
+1. `git rm file.txt`
 
+1. `git remote -v`
 
-10. `git fetch origin`
+1. What is a "remote"?
 
+1. What is "origin"?
 
-11. `git checkout 56789`
+1. What is "master"?
 
+1. What is a "branch"?
 
-11. `git branch`
+1. What is the difference between adding and committing?
 
+1. What is the difference between pulling and fetching?
 
-11. `git checkout -b feature_branch`
+1. What is the difference between cloning and forking?
 
+1. What is the difference between origin and upstream?
 
-11. `git merge feature_branch`
+1. What is the difference between an untracked and unstaged file?
 
+1. What  is `HEAD`?
 
-11. `git branch -d useless_branch`
+1. What is difference between `git log` and `git reflog`?
 
-
-13. `git log --oneline`
-
-
-14. `git rm file.txt`
-
-
-15. `git remote -v`
-
-
-16. What is a `remote`?
-
-
-17. What is `origin`?
-
-
-18. What is `master`?
-
-
-19. What is a branch?
-
-
-19. What is the difference between adding and committing?
-
-
-20. What is the difference between pulling and fetching?
-
-
-21. What is the difference between cloning and forking?
-
-
-22. What is the difference between origin and upstream?
-
-
-21. What  is `HEAD`?
-
-
-22. What is `fast forward`?
-
-
-23. What is difference between `git log` and `git reflog`?
-
-
-24. What is the difference between local and remote repository?
+1. What is the difference between local and remote repository?
