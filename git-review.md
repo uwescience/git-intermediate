@@ -30,7 +30,7 @@ Describe with your own words what the following command is doing or answer the q
 10. `git fetch origin`
 
 
-11. 12. `git checkout 56789`
+11. `git checkout 56789`
 
 
 11. `git branch`
@@ -39,13 +39,10 @@ Describe with your own words what the following command is doing or answer the q
 11. `git checkout -b feature_branch`
 
 
-11. `git branch -d  feature_branch`
-
-
 11. `git merge feature_branch`
 
 
-11. `git branch -d`
+11. `git branch -d useless_branch`
 
 
 13. `git log --oneline`
@@ -78,6 +75,9 @@ Describe with your own words what the following command is doing or answer the q
 21. What is the difference between cloning and forking?
 
 
+22. What is the difference between origin and upstream?
+
+
 21. What  is `HEAD`?
 
 
@@ -88,5 +88,3 @@ Describe with your own words what the following command is doing or answer the q
 
 
 24. What is the difference between local and remote repository?
-
-25.
