@@ -2,11 +2,31 @@
 ----
 git add, commit, push, pull
 
-### Collaboration Workflows
+### Branches
 ----
+
+*Exercise: local branch*
+
+* Initialize a repo
+    - commit a file called `file.txt` with text `Parent commit` on the first line.
+* Create a branch my_experiment.
+* Switch to it.
+* Add a line with text `Feature commit 1` and commit the changes.
+* Merge the branch with master (remember you need to be on master to do that).
+* Delete the branch.
+
+* Create a branch another_experiment.
+* Add a line with text `Feature commit 2` and commit the changes.
+* Switch to master, and add a line `Improvement of master`, and commit the changes.
+* Now try to merge the another_experiment branch with master.
+
+***You stumble into a merge conflict!***
 
 ### Merge Conflicts
 ----
+Go through steps to resolve the conflict.
+
+
 Possible Scenarios:
 * two people add material at different places of the file
 * two people change the same line in a document
@@ -45,23 +65,15 @@ Use the repo importer to create a temporary copy of this repository for the purp
 
 This was a very simple workflow in which you only work on master and all changes follow a line. But what if you want to work on different aspects of projects and we are not sure if in the end we will like our experiments to go into the main projects. It is still important to keep track of the changes so that we do not lose something important.
 
-### Branches (a better workflow)
---------------------
-*Exercise: local branch*
-
-* Create a branch my_experiment.
-* Switch to it.
-* Add a few lines  of code. Create a new file.
-* Merge the branch with master.
-* Push to origin.
-* Delete the branch.
 
 *Exercise: public branch*
 
-* Create a branch named: public_branch
-* Create the corresponding public branch
-* Add a few changes to the branch
-* Merge the branch through github
+Work in your fork.
+
+* Create a branch named: your_initials_branch
+* Write more text in the file with your initials
+* Push to the corresponding public branch
+* Merge the branch through github with the master of the repo from which you forked
 
 
 ### Navigating the Git Tree
