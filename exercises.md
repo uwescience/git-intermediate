@@ -20,8 +20,11 @@
 ***You stumble into a merge conflict!***
 
 (c)
+
 1. Go to the file to select the version you want
+
 2. Add and commit the file.
+
 3. Delete the branch.
 
 Remember to regularly use `git status`, `git log`,  and `git branch` to know where you are and what you have done.
