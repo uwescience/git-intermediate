@@ -1,14 +1,14 @@
 ### Review of Version Control
-----
 git add, commit, push, pull
 
-### Branches
 ----
+### Branches
+
 
 *Exercise: local branch*
 
 * Initialize a repo
-    - commit a file called `file.txt` with text `Parent commit` on the first line.
+* commit a file called `file.txt` with text `Parent commit` on the first line.
 * Create a branch my_experiment.
 * Switch to it.
 * Add a line with text `Feature commit 1` and commit the changes.
@@ -22,8 +22,9 @@ git add, commit, push, pull
 
 ***You stumble into a merge conflict!***
 
-### Merge Conflicts
 ----
+### Merge Conflicts
+
 Go through steps to resolve the conflict.
 
 
@@ -34,8 +35,11 @@ Possible Scenarios:
 
 Quiz (on how two files get merged)
 
+-----
+### Collaboration Workflows
+
+------
 ### Forks and Pull Requests
-----------------------------------
 
 ***What if you want to contribute to a repo which you are not collaborator to?***
 
@@ -75,12 +79,11 @@ Work in your fork.
 * Push to the corresponding public branch
 * Merge the branch through github with the master of the repo from which you forked
 
-
+----
 ### Navigating the Git Tree
-----------------------------
 
+-----
 ### Reset, checkout, revert
----------------------------
 
+----
 ### Rebasing vs. Merging
--------------------------
