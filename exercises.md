@@ -29,7 +29,27 @@
 
 Remember to regularly use `git status`, `git log`,  and `git branch` to know where you are and what you have done.
 
-*Exercise: local branch*
+*Exercise: switching between branches
+
+(a) tracked files:
+
+1. add and commit all files on the master branch
+2. add and commit all files on my_experiment branch
+3. modify a file on branch my_experiment
+4. try to switch to master
+5. stash changes
+6. switch to master
+7. add a change
+8. go back to my_experiment and unstash the changes
+9. continue working
+
+(b) (untracked files):
+
+1. create a file untracked.txt while on master branch
+2. switch to the my_experiment branch
+3. check whether untracked.txt still exists
+4. add and commit the file to my_experiment branch
+5. switch to master: is the file still there???
 
 ***What if you want to contribute to a repo which you are not collaborator to?***
 
