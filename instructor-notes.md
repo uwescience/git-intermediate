@@ -139,7 +139,7 @@ Once you are finished with a branch you can remove it with
 
 #### Exercise: Go through steps to resolve the conflict.
 
-* identify <<<>>> symbols
+* identify `<<<` and `>>>` symbols
 * select blocks of code to preserve
 * add file changes and commit
 
@@ -175,7 +175,10 @@ Usually it is safest to commit your changes before you switch between branches. 
 
 `git stash` puts away any uncommitted changes (either staged or unstaged). For those familiar with CS data structures, it is a stack -- last in, first out using `git stash` and `git stash pop`. 
 
-![scope for git stash](https://www.atlassian.com/git/images/tutorials/getting-started/git-stash/01.svg)
+Other useful commands:
+* `git stash save debugging_stash` - naming the stash
+* `git stash list` - listing all stashes
+* `git stash apply stash@{n}` - retrieving the stash without removing it from the stack
 
 https://www.atlassian.com/git/tutorials/git-stash#stashing-your-work
 
