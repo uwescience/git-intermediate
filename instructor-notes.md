@@ -57,6 +57,9 @@ Possible Scenarios:
 
 Quiz (on how two files get merged)
 
+https://www.atlassian.com/git/tutorials/using-branches
+
+
 -----
 ## Collaboration Workflows
 
