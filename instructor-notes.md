@@ -118,6 +118,9 @@ Part 2 (untracked files):
 * add and commit the file to my_experiment branch
 * switch to master: is the file still there???
 
+https://www.atlassian.com/git/tutorials/using-branches
+
+
 -----
 ## Collaboration Workflows
 
