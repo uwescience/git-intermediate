@@ -33,6 +33,51 @@ Review `git revert`, `git reset`.
 
 ----
 ## Branches
+So far the commit structure has been somewhat linear (one-dimensional). 
+
+parent commit -> commit 1 -> commit 2 -> commit 3 -> revert commit 3 -> commit 4
+
+It is quite hard to go back to an old commit and try out something new without affecting the current structure of your repository. Branches make this easy and allow for flexible collaborative workflows.
+
+You have already used a branch: the master branch.
+
+To check what branch you are on type
+
+```
+    git branch
+
+```
+
+You can create a new branch called `new_branch` with the command:
+
+```
+    git branch new_branch
+```
+
+Then you can switch to it using `git checkout`.
+
+```
+    git checkout new_branch
+```
+
+Shortcut for creating and switching to a new branch simultaneously:
+
+```
+    git checkout -b new_branch
+```
+
+To merge the changes in new_branch to master, first switch to master, and then run
+
+```
+    git merge new_branch
+    
+```
+
+Once you are finished with a branch you can remove it with
+
+```
+    git branch -d new_branch
+```
 
 #### Exercise: Create and edit a local branch, then merge with master (fast-forward).
 
@@ -58,6 +103,11 @@ Review `git revert`, `git reset`.
 ## Merge Conflicts
 
 #### Exercise: Go through steps to resolve the conflict.
+
+* identify <<<>>> symbols
+* select blocks of code to preserve
+* add file changes and commit
+
 
 Possible Scenarios:
 * two people add material at different places of the file
