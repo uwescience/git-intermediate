@@ -9,7 +9,7 @@ Lots of quirks and details to git, even for regular users. For example, only rec
 Commands to review: `git init`, `git status`, `git add`, `git commit`, `git log`, `git remote`, `git fetch`, `git pull`, `git push`, `.gitignore`
 
 ----
-## Undoing changes
+## Undoing Changes
 Review `git revert`, `git reset`.
 
 (discuss tree structure and git tree)
