@@ -12,24 +12,39 @@ Commands to review: `git init`, `git status`, `git add`, `git commit`, `git log`
 ## Undoing Changes
 Review `git revert`, `git reset`.
 
-(discuss tree structure and git tree)
+(discuss HEAD and git tree)
 
 
-#### Demo/Exercise: Start a code change,
+#### Demo/Exercise: 
 
 * Initialize a repo.
 * Start editing a file called code.py.
 * Add a couple of commits.
-* Try to revert to and older commit.
+* Try to revert a previous commit.
+
+```
+    git revert HEAD
+```
 * What does the history look like?
     - you will see an extra commit: history is preserved.
 * Add a few more commits.
-* Reset to an older commit.
+* Reset to a previous commit.
+```
+    git reset HEAD~1
+```
 * What does the history look like?
     - the last commit is gone: history is rewritten.
- 
+    - file changes are still there
 
-#### 
+In some rare cases you want to make your local files look like a previous commit, i.e. you want to throw out the changes. In this case you can use the `--hard` prefix, but be careful, you will lose your changes.
+
+```
+    git reset --hard HEAD~1
+```
+Note: when reverting we used `HEAD` to refer to which commit we want to be removed, while when resetting we used `HEAD~1` to indicate we want to move to the content of one commit before the current commit.
+
+https://www.atlassian.com/git/tutorials/undoing-changes
+ 
 
 ----
 ## Branches
