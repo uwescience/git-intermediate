@@ -8,14 +8,28 @@ Lots of quirks and details to git, even for regular users. For example, only rec
 ## Review of Basic Git Commands
 Commands to review: `git init`, `git status`, `git add`, `git commit`, `git log`, `git remote`, `git fetch`, `git pull`, `git push`, `.gitignore`
 
+----
+## Undoing changes
+Review `git revert`, `git reset`.
 
-#### Demo/Exercise: Start a code change, stash for more pressing feature, then pop/apply the stash with original.
+(discuss tree structure and git tree)
+
+
+#### Demo/Exercise: Start a code change,
 
 * Initialize a repo.
 * Start editing a file called code.py.
-* 
+* Add a couple of commits.
+* Try to revert to and older commit.
+* What does the history look like?
+    - you will see an extra commit: history is preserved.
+* Add a few more commits.
+* Reset to an older commit.
+* What does the history look like?
+    - the last commit is gone: history is rewritten.
+ 
 
-![scope for git stash](https://www.atlassian.com/git/images/tutorials/getting-started/git-stash/01.svg)
+#### 
 
 ----
 ## Branches
