@@ -59,3 +59,5 @@ Describe with your own words what the following command is doing or answer the q
 1. What is difference between `git log` and `git reflog`?
 
 1. What is the difference between local and remote repository?
+
+1. What is the difference between rebasing and merging?
