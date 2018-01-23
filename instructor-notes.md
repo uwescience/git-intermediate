@@ -155,7 +155,17 @@ Possible Scenarios:
 
 Usually it is safest to commit your changes before you switch between branches. But there are cases when you do not want to commit before switching: for example, you are in the middle of debugging on my_experiment but you want to fix a typo on master. Stashing can help in this situation.
 
-`git stash` puts away any uncommitted changes (either staged or unstaged). For those familiar with CS data structures, it is a stack -- last in, first out using `git stash` and `git stash pop`. 
+`git stash` puts away any uncommitted changes (either staged or unstaged). For those familiar with CS data structures, it is a stack -- last in, first out using `git stash` and `git stash pop`.
+
+Other useful commands:
+
+`git stash save debugging_stash` - naming the stash
+
+`git stash list` - listing all stashes
+
+`git stash apply stash@{n}` - retrieving the stash without removing it from the stack
+
+
 
 ![scope for git stash](https://www.atlassian.com/git/images/tutorials/getting-started/git-stash/01.svg)
 
