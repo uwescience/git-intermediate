@@ -94,6 +94,8 @@ Usually it is safest to commit your changes before you switch between branches. 
 
 ![scope for git stash](https://www.atlassian.com/git/images/tutorials/getting-started/git-stash/01.svg)
 
+https://www.atlassian.com/git/tutorials/git-stash#stashing-your-work
+
 #### Exercise: 
 
 Part 1 (tracked files):
