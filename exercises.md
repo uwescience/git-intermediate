@@ -29,7 +29,7 @@
 
 Remember to regularly use `git status`, `git log`,  and `git branch` to know where you are and what you have done.
 
-*Exercise: switching between branches
+*Exercise: switching between branches*
 
 (a) tracked files:
 
