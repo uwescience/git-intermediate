@@ -42,6 +42,8 @@ In some rare cases you want to make your local files look like a previous commit
     git reset --hard HEAD~1
 ```
 Note: when reverting we used `HEAD` to refer to which commit we want to be removed, while when resetting we used `HEAD~1` to indicate we want to move to the content of one commit before the current commit.
+
+https://www.atlassian.com/git/tutorials/undoing-changes
  
 
 ----
