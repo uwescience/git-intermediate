@@ -9,11 +9,6 @@ Lots of quirks and details to git, even for regular users. For example, only rec
 Commands to review: `git init`, `git status`, `git add`, `git commit`, `git log`, `git remote`, `git fetch`, `git pull`, `git push`, `.gitignore`
 
 
-----
-## Stashing
-
-`git stash` puts away any uncommitted changes (either staged or unstaged). For those familiar with CS data structures, it is a stack -- last in, first out using `git stash` and `git stash pop`. 
-
 #### Demo/Exercise: Start a code change, stash for more pressing feature, then pop/apply the stash with original.
 
 * Initialize a repo.
@@ -56,6 +51,56 @@ Possible Scenarios:
 * person A adds a line, person B deletes a different line
 
 Quiz (on how two files get merged)
+
+## Switching Between Branches
+What happens when we switch between branches?
+
+Possible Scenarios:
+
+* all files are committed on both branches
+    - the files in the local folder get updated to the ones of the current branch
+    
+* a file tracked on both branches is changed on one of them but the change is not committed
+    - switching is not allowed to prevent losing the data    
+    
+* a file is untracked on both branches
+    - it remains intact
+
+* a file is committed on one branch and untracked on the other branch
+    - after switching file appears only on the branch it was committed
+    
+
+
+----
+## Stashing
+
+Usually it is safest to commit your changes before you switch between branches. But there are cases when you do not want to commit before switching: for example, you are in the middle of debugging on my_experiment but you want to fix a typo on master. Stashing can help in this situation.
+
+`git stash` puts away any uncommitted changes (either staged or unstaged). For those familiar with CS data structures, it is a stack -- last in, first out using `git stash` and `git stash pop`. 
+
+![scope for git stash](https://www.atlassian.com/git/images/tutorials/getting-started/git-stash/01.svg)
+
+#### Exercise: 
+
+Part 1 (tracked files):
+
+* add and commit all files on the master branch
+* add and commit all files on my_experiment branch
+* modify a file on branch my_experiment
+* try to switch to master
+* stash changes
+* switch to master
+* add a change
+* go back to my_experiment and unstash the changes
+* continue working
+
+Part 2 (untracked files):
+
+* create a file untracked.txt while on master branch
+* switch to the my_experiment branch
+* check whether untracked.txt still exists
+* add and commit the file to my_experiment branch
+* switch to master: is the file still there???
 
 -----
 ## Collaboration Workflows
