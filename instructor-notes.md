@@ -143,11 +143,26 @@ Once you are finished with a branch you can remove it with
 * select blocks of code to preserve
 * add file changes and commit
 
+### Merging Strategies
 
-Possible Scenarios:
+How does git decide how to merge our files?
+
+Many Possible Scenarios:
 * two people add material at different places of the file
 * two people change the same line in a document
 * person A adds a line, person B deletes a different line
+
+**3 Way Recursive Merge Strategy**
+
+Simply looking at the difference of two modified files is not informative enough to decide which changes to keep. The 3 Way Recursive Merge Strategy looks also at the common ancestor of the files, i.e. it compares 3 states: the base, the source, and the target. 
+
+![](3WayRecursiveStrategy.png)
+
+
+
+
+
+
 
 Quiz (on how two files get merged)
 
