@@ -284,6 +284,8 @@ Use the repo importer to create a temporary copy of this repository for the purp
 
 ***Did this activity cause some problems: why or why not?***
 
+![](BasicForkWorkflow.png)
+
 This was a very simple workflow in which you only work on master and all changes follow a line. But what if you want to work on different aspects of projects and we are not sure if in the end we will like our experiments to go into the main projects. It is still important to keep track of the changes so that we do not lose something important.
 
 
